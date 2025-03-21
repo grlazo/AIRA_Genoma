@@ -1,0 +1,9 @@
+pandas
+streamlit
+langchain
+langchain_ollama
+langchain_experimental
+matplotlib
+numpy
+tabulate
+
