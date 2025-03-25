@@ -7,7 +7,7 @@ and the anaconda (or miniconda3) to set up a python environment.
 
 Ollama can be istalled on Linux, Windows, or Apple (check your requirements).
 
-Once you have Ollama installed, you need a large language model (LLM). 
+Once you have Ollama installed (v0.6.2), you need a large language model (LLM). 
 You can visit the website to discover all that is available. It's best to 
 install your ollama instance under the conda environment to make sure both 
 are working under the same environment.
@@ -16,8 +16,8 @@ For instance on a Windows machine you would start your Anaconda Powershell
 and run the following commands:
 ```
 $ ollama pull llama3.1:latest
-$ ollama pull deepseek-r1:14b
-$ ollama pull qwen2.5:7b
+$ ollama pull llama3.2:latest
+$ ollama pull gemma3:12b
 ```
 The above will get you started; you may change these later. Three LLMs 
 pre-configured; you don't need all (edit  wheat_genome_browser.py if needed). 
@@ -49,7 +49,8 @@ $ pip install streamlit
 ```
 There should be no issues under a Linux environment, but the peculiar steps 
 suggested were encountered when walking someone through this process for a 
-Windows machine (not sure about Apple). It seems to be a permission issue between user/administrator accounts (software installs require administrator permissions).
+Windows machine (not sure about Apple). It seems to be a permission issue 
+between user/administrator accounts (software installs require administrator permissions).
 
 Place your GFF3 files in a directory called '***data***'. Start with one, or a 
 few, to start until you're comfortable with the limitations on your machine settings.

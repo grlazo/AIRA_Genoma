@@ -634,7 +634,7 @@ def run_genome_app():
             # Model selection
             model_name = st.sidebar.selectbox(
                 "Select Ollama Model",
-                ["llama3.1:latest", "deepseek-r1:14b", "qwen2.5:7b"],
+                ["llama3.1:latest", "gemma3:12b", "llama3.2:latest"],
                 index=1
             )
             temperature = st.sidebar.slider("Temperature", 0.0, 1.0, 0.1)
